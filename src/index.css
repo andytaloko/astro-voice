@@ -37,23 +37,34 @@ All colors MUST be HSL.
     --input: 225 14% 89%;
     --ring: 262 52% 47%;
 
-    /* Custom Astro Voice tokens */
-    --cosmic-primary: 262 52% 47%;
-    --cosmic-secondary: 220 100% 80%;
-    --cosmic-accent: 280 100% 70%;
-    --stellar-blue: 220 100% 60%;
+    /* Tech Blue System - Light Mode */
+    --tech-primary: 210 100% 56%;
+    --tech-secondary: 200 95% 85%;
+    --tech-accent: 180 100% 70%;
+    --tech-light: 210 60% 95%;
+    --tech-deep: 220 25% 15%;
+    
+    /* Legacy cosmic tokens (updated to tech blue) */
+    --cosmic-primary: 210 100% 56%;
+    --cosmic-secondary: 200 95% 85%;
+    --cosmic-accent: 180 100% 70%;
+    --stellar-blue: 210 100% 56%;
     --deep-space: 237 22% 8%;
-    --nebula-purple: 280 40% 25%;
+    --nebula-purple: 220 25% 15%;
     
-    /* Gradients */
-    --gradient-cosmic: linear-gradient(135deg, hsl(262 52% 47%), hsl(280 100% 70%));
-    --gradient-stellar: linear-gradient(135deg, hsl(220 100% 60%), hsl(262 52% 47%));
-    --gradient-hero: linear-gradient(180deg, hsl(224 24% 97%), hsl(225 14% 89%));
+    /* Tech Blue Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(210 100% 56%), hsl(180 100% 70%));
+    --gradient-stellar: linear-gradient(135deg, hsl(200 95% 85%), hsl(210 100% 56%));
+    --gradient-hero: linear-gradient(180deg, hsl(210 60% 95%), hsl(200 95% 85%));
+    --gradient-tech: linear-gradient(135deg, hsl(210 100% 56%), hsl(180 100% 70%));
+    --gradient-tech-soft: linear-gradient(135deg, hsl(200 95% 85%), hsl(210 100% 56%));
     
-    /* Shadows */
-    --shadow-cosmic: 0 10px 40px -10px hsl(262 52% 47% / 0.3);
-    --shadow-stellar: 0 0 40px hsl(220 100% 60% / 0.2);
-    --shadow-glow: 0 0 60px hsl(280 100% 70% / 0.4);
+    /* Tech Blue Shadows */
+    --shadow-cosmic: 0 10px 40px -10px hsl(210 100% 56% / 0.3);
+    --shadow-stellar: 0 0 40px hsl(210 100% 56% / 0.2);
+    --shadow-glow: 0 0 60px hsl(180 100% 70% / 0.4);
+    --shadow-tech: 0 10px 40px -10px hsl(210 100% 56% / 0.3);
+    --shadow-tech-glow: 0 0 60px hsl(180 100% 70% / 0.4);
 
     /* Animations */
     --transition-cosmic: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -108,23 +119,34 @@ All colors MUST be HSL.
     --input: 237 12% 15%;
     --ring: 262 52% 55%;
 
-    /* Dark mode cosmic adjustments */
-    --cosmic-primary: 262 52% 55%;
-    --cosmic-secondary: 220 100% 70%;
-    --cosmic-accent: 280 100% 75%;
-    --stellar-blue: 220 100% 70%;
+    /* Tech Blue System - Dark Mode */
+    --tech-primary: 210 100% 66%;
+    --tech-secondary: 200 95% 75%;
+    --tech-accent: 180 100% 80%;
+    --tech-light: 210 60% 85%;
+    --tech-deep: 220 25% 10%;
+    
+    /* Legacy cosmic tokens (updated to tech blue) */
+    --cosmic-primary: 210 100% 66%;
+    --cosmic-secondary: 200 95% 75%;
+    --cosmic-accent: 180 100% 80%;
+    --stellar-blue: 210 100% 66%;
     --deep-space: 237 22% 8%;
-    --nebula-purple: 280 40% 20%;
+    --nebula-purple: 220 25% 10%;
     
-    /* Dark gradients */
-    --gradient-cosmic: linear-gradient(135deg, hsl(262 52% 55%), hsl(280 100% 75%));
-    --gradient-stellar: linear-gradient(135deg, hsl(220 100% 70%), hsl(262 52% 55%));
-    --gradient-hero: linear-gradient(180deg, hsl(237 22% 8%), hsl(237 12% 15%));
+    /* Tech Blue Dark Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(210 100% 66%), hsl(180 100% 80%));
+    --gradient-stellar: linear-gradient(135deg, hsl(200 95% 75%), hsl(210 100% 66%));
+    --gradient-hero: linear-gradient(180deg, hsl(237 22% 8%), hsl(220 25% 10%));
+    --gradient-tech: linear-gradient(135deg, hsl(210 100% 66%), hsl(180 100% 80%));
+    --gradient-tech-soft: linear-gradient(135deg, hsl(200 95% 75%), hsl(210 100% 66%));
     
-    /* Dark shadows */
-    --shadow-cosmic: 0 10px 40px -10px hsl(262 52% 55% / 0.4);
-    --shadow-stellar: 0 0 40px hsl(220 100% 70% / 0.3);
-    --shadow-glow: 0 0 60px hsl(280 100% 75% / 0.5);
+    /* Tech Blue Dark Shadows */
+    --shadow-cosmic: 0 10px 40px -10px hsl(210 100% 66% / 0.4);
+    --shadow-stellar: 0 0 40px hsl(210 100% 66% / 0.3);
+    --shadow-glow: 0 0 60px hsl(180 100% 80% / 0.5);
+    --shadow-tech: 0 10px 40px -10px hsl(210 100% 66% / 0.4);
+    --shadow-tech-glow: 0 0 60px hsl(180 100% 80% / 0.5);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -166,6 +188,26 @@ All colors MUST be HSL.
     50% { opacity: 1; }
   }
 
+  @keyframes pulse-wave {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(2); opacity: 0; }
+  }
+
+  @keyframes voice-wave {
+    0%, 100% { height: 8px; }
+    50% { height: 24px; }
+  }
+
+  @keyframes tech-grid {
+    0% { background-position: 0 0; }
+    100% { background-position: 40px 40px; }
+  }
+
+  @keyframes fade-in-up {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
   .animate-float {
     animation: float 6s ease-in-out infinite;
   }
@@ -184,7 +226,23 @@ All colors MUST be HSL.
     animation: twinkle 2s ease-in-out infinite;
   }
 
-  /* Cosmic background */
+  .animate-pulse-wave {
+    animation: pulse-wave 2s infinite;
+  }
+
+  .animate-voice-wave {
+    animation: voice-wave 1s ease-in-out infinite;
+  }
+
+  .animate-tech-grid {
+    animation: tech-grid 20s linear infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out;
+  }
+
+  /* Tech background with grid pattern */
   .cosmic-bg {
     background: var(--gradient-hero);
     position: relative;
@@ -198,8 +256,68 @@ All colors MUST be HSL.
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: radial-gradient(circle at 25% 25%, hsl(var(--cosmic-accent) / 0.1) 0%, transparent 50%),
-                      radial-gradient(circle at 75% 75%, hsl(var(--stellar-blue) / 0.1) 0%, transparent 50%);
+    background-image: 
+      linear-gradient(hsl(var(--tech-primary) / 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--tech-primary) / 0.03) 1px, transparent 1px),
+      radial-gradient(circle at 25% 25%, hsl(var(--tech-accent) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(var(--tech-primary) / 0.1) 0%, transparent 50%);
+    background-size: 40px 40px, 40px 40px, 800px 800px, 800px 800px;
     pointer-events: none;
+    animation: tech-grid 20s linear infinite;
+  }
+
+  /* Tech grid overlay */
+  .tech-grid {
+    background-image: 
+      linear-gradient(hsl(var(--tech-primary) / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--tech-primary) / 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  /* Voice wave animation */
+  .voice-wave {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .voice-wave .bar {
+    width: 3px;
+    background: hsl(var(--tech-primary));
+    border-radius: 2px;
+    animation: voice-wave 1s ease-in-out infinite;
+  }
+
+  .voice-wave .bar:nth-child(2) { animation-delay: 0.1s; }
+  .voice-wave .bar:nth-child(3) { animation-delay: 0.2s; }
+  .voice-wave .bar:nth-child(4) { animation-delay: 0.3s; }
+  .voice-wave .bar:nth-child(5) { animation-delay: 0.4s; }
+
+  /* Responsive utilities */
+  @media (max-width: 768px) {
+    .cosmic-bg::before {
+      background-size: 20px 20px, 20px 20px, 400px 400px, 400px 400px;
+    }
+  }
+
+  /* Touch targets for mobile */
+  @media (max-width: 768px) {
+    button, a {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-float,
+    .animate-glow,
+    .animate-shimmer,
+    .animate-twinkle,
+    .animate-pulse-wave,
+    .animate-voice-wave,
+    .animate-tech-grid {
+      animation: none;
+    }
   }
 }

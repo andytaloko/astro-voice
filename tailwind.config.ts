@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				tech: {
+					primary: 'hsl(var(--tech-primary))',
+					secondary: 'hsl(var(--tech-secondary))',
+					accent: 'hsl(var(--tech-accent))',
+					light: 'hsl(var(--tech-light))',
+					deep: 'hsl(var(--tech-deep))',
+				},
 				cosmic: {
 					primary: 'hsl(var(--cosmic-primary))',
 					secondary: 'hsl(var(--cosmic-secondary))',
@@ -112,6 +119,22 @@ export default {
 				twinkle: {
 					'0%, 100%': { opacity: '0.3' },
 					'50%': { opacity: '1' }
+				},
+				'pulse-wave': {
+					'0%': { transform: 'scale(1)', opacity: '1' },
+					'100%': { transform: 'scale(2)', opacity: '0' }
+				},
+				'voice-wave': {
+					'0%, 100%': { height: '8px' },
+					'50%': { height: '24px' }
+				},
+				'tech-grid': {
+					'0%': { backgroundPosition: '0 0' },
+					'100%': { backgroundPosition: '40px 40px' }
+				},
+				'fade-in-up': {
+					'0%': { opacity: '0', transform: 'translateY(30px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
 				}
 			},
 			animation: {
@@ -120,17 +143,25 @@ export default {
 				float: 'float 6s ease-in-out infinite',
 				glow: 'glow 3s ease-in-out infinite',
 				shimmer: 'shimmer 2s infinite',
-				twinkle: 'twinkle 2s ease-in-out infinite'
+				twinkle: 'twinkle 2s ease-in-out infinite',
+				'pulse-wave': 'pulse-wave 2s infinite',
+				'voice-wave': 'voice-wave 1s ease-in-out infinite',
+				'tech-grid': 'tech-grid 20s linear infinite',
+				'fade-in-up': 'fade-in-up 0.6s ease-out'
 			},
 			backgroundImage: {
 				'gradient-cosmic': 'var(--gradient-cosmic)',
 				'gradient-stellar': 'var(--gradient-stellar)',
-				'gradient-hero': 'var(--gradient-hero)'
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-tech': 'var(--gradient-tech)',
+				'gradient-tech-soft': 'var(--gradient-tech-soft)'
 			},
 			boxShadow: {
 				'cosmic': 'var(--shadow-cosmic)',
 				'stellar': 'var(--shadow-stellar)',
-				'glow': 'var(--shadow-glow)'
+				'glow': 'var(--shadow-glow)',
+				'tech': 'var(--shadow-tech)',
+				'tech-glow': 'var(--shadow-tech-glow)'
 			}
 		}
 	},
