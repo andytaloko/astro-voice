@@ -8,33 +8,56 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Astro Voice Space Theme - Light Mode */
+    --background: 224 24% 97%;
+    --foreground: 237 22% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 224 24% 97%;
+    --card-foreground: 237 22% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 224 24% 97%;
+    --popover-foreground: 237 22% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 262 52% 47%;
+    --primary-foreground: 224 24% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 225 14% 89%;
+    --secondary-foreground: 237 22% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 225 14% 89%;
+    --muted-foreground: 237 12% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 220 100% 80%;
+    --accent-foreground: 237 22% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 224 24% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 225 14% 89%;
+    --input: 225 14% 89%;
+    --ring: 262 52% 47%;
+
+    /* Custom Astro Voice tokens */
+    --cosmic-primary: 262 52% 47%;
+    --cosmic-secondary: 220 100% 80%;
+    --cosmic-accent: 280 100% 70%;
+    --stellar-blue: 220 100% 60%;
+    --deep-space: 237 22% 8%;
+    --nebula-purple: 280 40% 25%;
+    
+    /* Gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(262 52% 47%), hsl(280 100% 70%));
+    --gradient-stellar: linear-gradient(135deg, hsl(220 100% 60%), hsl(262 52% 47%));
+    --gradient-hero: linear-gradient(180deg, hsl(224 24% 97%), hsl(225 14% 89%));
+    
+    /* Shadows */
+    --shadow-cosmic: 0 10px 40px -10px hsl(262 52% 47% / 0.3);
+    --shadow-stellar: 0 0 40px hsl(220 100% 60% / 0.2);
+    --shadow-glow: 0 0 60px hsl(280 100% 70% / 0.4);
+
+    /* Animations */
+    --transition-cosmic: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-stellar: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 
     --radius: 0.5rem;
 
@@ -56,33 +79,52 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Astro Voice Space Theme - Dark Mode */
+    --background: 237 22% 8%;
+    --foreground: 224 24% 97%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 237 22% 12%;
+    --card-foreground: 224 24% 97%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 237 22% 12%;
+    --popover-foreground: 224 24% 97%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 262 52% 55%;
+    --primary-foreground: 237 22% 8%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 237 12% 15%;
+    --secondary-foreground: 224 24% 97%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 237 12% 15%;
+    --muted-foreground: 237 12% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 280 100% 70%;
+    --accent-foreground: 237 22% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 224 24% 97%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 237 12% 15%;
+    --input: 237 12% 15%;
+    --ring: 262 52% 55%;
+
+    /* Dark mode cosmic adjustments */
+    --cosmic-primary: 262 52% 55%;
+    --cosmic-secondary: 220 100% 70%;
+    --cosmic-accent: 280 100% 75%;
+    --stellar-blue: 220 100% 70%;
+    --deep-space: 237 22% 8%;
+    --nebula-purple: 280 40% 20%;
+    
+    /* Dark gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(262 52% 55%), hsl(280 100% 75%));
+    --gradient-stellar: linear-gradient(135deg, hsl(220 100% 70%), hsl(262 52% 55%));
+    --gradient-hero: linear-gradient(180deg, hsl(237 22% 8%), hsl(237 12% 15%));
+    
+    /* Dark shadows */
+    --shadow-cosmic: 0 10px 40px -10px hsl(262 52% 55% / 0.4);
+    --shadow-stellar: 0 0 40px hsl(220 100% 70% / 0.3);
+    --shadow-glow: 0 0 60px hsl(280 100% 75% / 0.5);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -101,5 +143,63 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Cosmic animations */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes glow {
+    0%, 100% { box-shadow: var(--shadow-cosmic); }
+    50% { box-shadow: var(--shadow-glow); }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-glow {
+    animation: glow 3s ease-in-out infinite;
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(90deg, transparent, hsl(var(--cosmic-secondary) / 0.4), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+
+  .animate-twinkle {
+    animation: twinkle 2s ease-in-out infinite;
+  }
+
+  /* Cosmic background */
+  .cosmic-bg {
+    background: var(--gradient-hero);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cosmic-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(circle at 25% 25%, hsl(var(--cosmic-accent) / 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 75% 75%, hsl(var(--stellar-blue) / 0.1) 0%, transparent 50%);
+    pointer-events: none;
   }
 }
