@@ -11,33 +11,33 @@ const Header = () => {
               <Star className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-cosmic bg-clip-text text-transparent">
-              Astro Voice
+              KIRA
             </span>
           </div>
         </div>
 
         <nav className="hidden md:flex items-center gap-6">
           <a href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Features
+            Recursos
           </a>
           <a href="#use-cases" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Use Cases
+            Casos de Uso
           </a>
           <a href="#pricing" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Pricing
+            Preços
           </a>
           <a href="#contact" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Contact
+            Contato
           </a>
         </nav>
 
         <div className="flex items-center gap-3">
           <Button variant="ghost" className="hidden md:inline-flex">
-            Log In
+            Entrar
           </Button>
           <Button variant="cosmic" className="shadow-cosmic hover:shadow-glow">
             <Zap className="w-4 h-4 mr-2" />
-            Get Started
+            Começar
           </Button>
         </div>
       </div>

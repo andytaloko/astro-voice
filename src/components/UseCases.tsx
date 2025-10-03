@@ -16,33 +16,33 @@ const UseCases = () => {
   const useCases = [
     {
       icon: Headphones,
-      title: "Customer Support",
-      description: "Handle inquiries, resolve issues, and provide instant help 24/7",
-      benefits: ["Reduce wait times", "Lower support costs", "Boost satisfaction"],
+      title: "Suporte ao Cliente",
+      description: "Atenda consultas, resolva problemas e forneça ajuda instantânea 24/7",
+      benefits: ["Reduza tempos de espera", "Diminua custos de suporte", "Aumente satisfação"],
       gradient: "from-blue-500 to-purple-600",
       bgColor: "bg-blue-50 dark:bg-blue-950/20",
     },
     {
       icon: Calendar,
-      title: "Appointment Scheduling", 
-      description: "Automate booking, confirmations, and rescheduling seamlessly",
-      benefits: ["Reduce no-shows", "Save admin time", "24/7 booking"],
+      title: "Agendamento de Consultas", 
+      description: "Automatize reservas, confirmações e reagendamentos perfeitamente",
+      benefits: ["Reduza faltas", "Economize tempo administrativo", "Reservas 24/7"],
       gradient: "from-green-500 to-blue-500",
       bgColor: "bg-green-50 dark:bg-green-950/20",
     },
     {
       icon: ShoppingCart,
-      title: "Sales & Lead Qualification",
-      description: "Qualify leads, answer product questions, and drive conversions",
-      benefits: ["Increase conversions", "Qualify leads faster", "Never miss a prospect"],
+      title: "Vendas e Qualificação de Leads",
+      description: "Qualifique leads, responda perguntas sobre produtos e impulsione conversões",
+      benefits: ["Aumente conversões", "Qualifique leads mais rápido", "Nunca perca um prospect"],
       gradient: "from-purple-500 to-pink-500",
       bgColor: "bg-purple-50 dark:bg-purple-950/20",
     },
     {
       icon: UserCheck,
-      title: "Order Management",
-      description: "Track orders, process returns, and update customers automatically",
-      benefits: ["Reduce order inquiries", "Automate updates", "Improve accuracy"],
+      title: "Gestão de Pedidos",
+      description: "Rastreie pedidos, processe devoluções e atualize clientes automaticamente",
+      benefits: ["Reduza consultas de pedidos", "Automatize atualizações", "Melhore precisão"],
       gradient: "from-orange-500 to-red-500",
       bgColor: "bg-orange-50 dark:bg-orange-950/20",
     }
@@ -54,13 +54,13 @@ const UseCases = () => {
         <div className="text-center mb-16">
           <Badge variant="outline" className="border-cosmic-primary text-cosmic-primary mb-4">
             <TrendingUp className="w-4 h-4 mr-2" />
-            Use Cases
+            Casos de Uso
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Transform Every Customer Interaction
+            Transforme Cada Interação com Cliente
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Discover how Astro Voice AI agents can revolutionize different aspects of your business operations
+            Descubra como os agentes IA da KIRA podem revolucionar diferentes aspectos das operações do seu negócio
           </p>
         </div>
 
@@ -96,7 +96,7 @@ const UseCases = () => {
                     
                     <Button variant="ghost" className="group/btn p-0 h-auto text-cosmic-primary hover:text-cosmic-accent">
                       <Play className="w-4 h-4 mr-2 group-hover/btn:scale-110 transition-transform" />
-                      Listen to Demo
+                      Ouvir Demo
                       <ArrowRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
                     </Button>
                   </div>
@@ -105,7 +105,7 @@ const UseCases = () => {
                 {/* Floating time indicator */}
                 <div className="absolute top-4 right-4 flex items-center gap-2 bg-background/80 backdrop-blur rounded-full px-3 py-1 text-xs text-muted-foreground">
                   <Clock className="w-3 h-3" />
-                  <span>24/7 Available</span>
+                  <span>Disponível 24/7</span>
                 </div>
               </CardContent>
             </Card>
@@ -115,7 +115,7 @@ const UseCases = () => {
         <div className="text-center">
           <Button variant="hero" className="group">
             <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-            Experience All Use Cases
+            Experimente Todos os Casos de Uso
             <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>

@@ -40,30 +40,30 @@ const HeroSection = () => {
           <div className="space-y-4">
             <Badge variant="outline" className="border-tech-primary text-tech-primary bg-background/50 backdrop-blur">
               <Sparkles className="w-4 h-4 mr-2" />
-              AI-Powered Voice Agents for SMBs
+              Agentes de Voz com IA para PMEs
             </Badge>
             
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight">
-              Transform Your Business with{" "}
+              Transforme Seu Negócio com{" "}
               <span className="bg-gradient-tech bg-clip-text text-transparent animate-shimmer">
-                AI Voice Agents
+                Agentes de Voz IA
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-2xl">
-              Automate customer support, boost sales, and enhance customer experience with 
-              natural-sounding AI voice agents designed specifically for small and medium businesses.
+              Automatize o suporte ao cliente, aumente as vendas e melhore a experiência do cliente com 
+              agentes de voz IA de som natural projetados especificamente para pequenas e médias empresas.
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <Button variant="hero" className="group">
               <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-              Try Demo Agent
+              Testar Agente Demo
             </Button>
             <Button variant="outline-cosmic" className="group">
               <Phone className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
-              Schedule Call
+              Agendar Ligação
             </Button>
           </div>
 
@@ -71,19 +71,19 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="w-4 h-4 text-tech-primary" />
-              <span>500+ SMBs trust Astro Voice</span>
+              <span>500+ PMEs confiam na KIRA</span>
             </div>
             <div className="hidden sm:block w-px h-4 bg-border" />
             <div className="flex items-center gap-1">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
               ))}
-              <span className="ml-1">4.9/5 rating</span>
+              <span className="ml-1">4.9/5 avaliação</span>
             </div>
             <div className="hidden md:block w-px h-4 bg-border" />
             <div className="flex items-center gap-2">
               <TrendingUp className="w-4 h-4 text-green-500" />
-              <span>40% cost reduction</span>
+              <span>40% redução de custos</span>
             </div>
           </div>
 
@@ -91,15 +91,15 @@ const HeroSection = () => {
           <div className="flex items-center justify-center lg:justify-start gap-6 pt-4">
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
               <Shield className="w-4 h-4 text-tech-primary" />
-              <span>SOC2 Compliant</span>
+              <span>Conformidade SOC2</span>
             </div>
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
               <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-              <span>99.9% Uptime</span>
+              <span>99.9% Disponibilidade</span>
             </div>
             <div className="flex items-center gap-2 text-xs text-muted-foreground">
               <div className="w-2 h-2 bg-tech-accent rounded-full" />
-              <span>24/7 Support</span>
+              <span>Suporte 24/7</span>
             </div>
           </div>
         </div>
@@ -124,8 +124,8 @@ const HeroSection = () => {
                     <div className="absolute inset-0 rounded-full border-2 border-tech-accent/20 animate-pulse-wave" style={{ animationDelay: '0.5s' }} />
                   </div>
                   <div className="flex-1">
-                    <div className="text-sm font-medium">Astro Voice Agent</div>
-                    <div className="text-xs text-muted-foreground">Processing natural language...</div>
+                    <div className="text-sm font-medium">Agente KIRA</div>
+                    <div className="text-xs text-muted-foreground">Processando linguagem natural...</div>
                   </div>
                   <div className="flex items-center gap-2">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
@@ -146,7 +146,7 @@ const HeroSection = () => {
                 
                 <div className="space-y-3">
                   <div className="bg-muted/50 rounded-lg p-3 text-sm animate-fade-in-up">
-                    "Hello! I can help with orders, support, and bookings. What do you need today?"
+                    "Olá! Posso ajudar com pedidos, suporte e reservas. O que você precisa hoje?"
                   </div>
                   <div className="flex items-center gap-2 text-tech-primary">
                     <div className="flex gap-1">
@@ -154,15 +154,15 @@ const HeroSection = () => {
                         <div key={i} className="w-2 h-2 bg-tech-primary rounded-full animate-bounce" style={{ animationDelay: `${i * 0.1}s` }} />
                       ))}
                     </div>
-                    <span className="text-xs">Processing response...</span>
+                    <span className="text-xs">Processando resposta...</span>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-2 pt-2">
                   <div className="flex-1 h-10 bg-muted/30 rounded-lg flex items-center px-3 text-sm text-muted-foreground touch-manipulation">
                     <Mic className="w-4 h-4 mr-2 text-tech-primary" />
-                    <span className="hidden sm:inline">Speak or type your message...</span>
-                    <span className="sm:hidden">Tap to speak...</span>
+                    <span className="hidden sm:inline">Fale ou digite sua mensagem...</span>
+                    <span className="sm:hidden">Toque para falar...</span>
                   </div>
                   <Button size="sm" variant="cosmic" className="h-10 w-10 p-0 touch-manipulation">
                     <Send className="w-4 h-4" />
@@ -171,9 +171,9 @@ const HeroSection = () => {
 
                 {/* Live metrics */}
                 <div className="flex justify-between pt-2 text-xs text-muted-foreground border-t border-border/50">
-                  <span>Response: &lt;200ms</span>
-                  <span>Accuracy: 98.5%</span>
-                  <span>Uptime: 99.9%</span>
+                  <span>Resposta: &lt;200ms</span>
+                  <span>Precisão: 98.5%</span>
+                  <span>Disponibilidade: 99.9%</span>
                 </div>
               </div>
             </Card>

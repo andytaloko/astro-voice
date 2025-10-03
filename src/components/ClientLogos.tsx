@@ -13,7 +13,7 @@ const ClientLogos = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <p className="text-sm text-muted-foreground uppercase tracking-wider">
-            Trusted by forward-thinking SMBs
+            Confiado por PMEs visionárias
           </p>
         </div>
         
@@ -37,17 +37,17 @@ const ClientLogos = () => {
           <div className="inline-flex items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <span className="font-semibold text-cosmic-primary">98%</span>
-              <span>Customer satisfaction</span>
+              <span>Satisfação do cliente</span>
             </div>
             <div className="w-px h-4 bg-border" />
             <div className="flex items-center gap-1">
               <span className="font-semibold text-cosmic-primary">45%</span>
-              <span>Reduction in support costs</span>
+              <span>Redução em custos de suporte</span>
             </div>
             <div className="w-px h-4 bg-border" />
             <div className="flex items-center gap-1">
               <span className="font-semibold text-cosmic-primary">24/7</span>
-              <span>Always available</span>
+              <span>Sempre disponível</span>
             </div>
           </div>
         </div>

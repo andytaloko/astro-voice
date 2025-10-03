@@ -12,10 +12,10 @@ import {
 
 const CTASection = () => {
   const benefits = [
-    "Setup in under 30 minutes",
-    "No technical expertise required",
-    "30-day money-back guarantee",
-    "Free migration assistance"
+    "Configuração em menos de 30 minutos",
+    "Nenhuma expertise técnica necessária",
+    "Garantia de devolução de 30 dias",
+    "Assistência de migração gratuita"
   ];
 
   return (
@@ -42,19 +42,19 @@ const CTASection = () => {
               <div className="mb-8">
                 <Badge variant="outline" className="border-cosmic-primary text-cosmic-primary mb-6">
                   <Sparkles className="w-4 h-4 mr-2" />
-                  Ready to Transform Your Business?
+                  Pronto para Transformar Seu Negócio?
                 </Badge>
                 
                 <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-                  Join 500+ SMBs Already Using{" "}
+                  Junte-se a 500+ PMEs Já Usando{" "}
                   <span className="bg-gradient-cosmic bg-clip-text text-transparent">
-                    Astro Voice
+                    KIRA
                   </span>
                 </h2>
                 
                 <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                  Start automating your customer interactions today. No contracts, no setup fees, 
-                  and you can be up and running in minutes.
+                  Comece a automatizar suas interações com clientes hoje. Sem contratos, sem taxas de configuração, 
+                  e você pode estar funcionando em minutos.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-4 mb-8 text-left max-w-2xl mx-auto">
@@ -70,23 +70,23 @@ const CTASection = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
                 <Button variant="hero" className="group text-lg px-8 py-4">
                   <Rocket className="w-5 h-5 mr-2 group-hover:translate-y-[-2px] transition-transform" />
-                  Start Free Trial
+                  Iniciar Teste Grátis
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
                 
                 <Button variant="outline-cosmic" className="group text-lg px-8 py-4">
                   <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
-                  Watch Demo
+                  Assistir Demo
                 </Button>
                 
                 <Button variant="ghost" className="group text-lg px-8 py-4 text-cosmic-primary hover:text-cosmic-accent">
                   <Calendar className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
-                  Book Consultation
+                  Agendar Consulta
                 </Button>
               </div>
 
               <div className="text-sm text-muted-foreground">
-                <span className="font-medium text-foreground">Special Launch Offer:</span> Get 50% off your first 3 months
+                <span className="font-medium text-foreground">Oferta Especial de Lançamento:</span> Ganhe 50% de desconto nos primeiros 3 meses
               </div>
             </CardContent>
             

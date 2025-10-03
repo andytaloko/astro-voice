@@ -16,43 +16,43 @@ const Features = () => {
   const features = [
     {
       icon: Brain,
-      title: "Advanced AI Understanding",
-      description: "Natural language processing that understands context, intent, and nuance"
+      title: "Compreensão IA Avançada",
+      description: "Processamento de linguagem natural que entende contexto, intenção e nuances"
     },
     {
       icon: Mic,
-      title: "Human-Like Voice Quality",
-      description: "Crystal clear, natural-sounding voices that customers love to interact with"
+      title: "Qualidade de Voz Humana",
+      description: "Vozes cristalinas e naturais que os clientes adoram interagir"
     },
     {
       icon: Zap,
-      title: "Lightning Fast Setup",
-      description: "Get your AI agent running in minutes, not weeks"
+      title: "Configuração Rápida",
+      description: "Tenha seu agente IA funcionando em minutos, não em semanas"
     },
     {
       icon: Puzzle,
-      title: "Seamless Integrations",
-      description: "Connect with your existing CRM, booking systems, and workflows"
+      title: "Integrações Perfeitas",
+      description: "Conecte com seu CRM, sistemas de reserva e fluxos de trabalho existentes"
     },
     {
       icon: Globe,
-      title: "Multi-Language Support",
-      description: "Serve customers in their preferred language with 30+ languages supported"
+      title: "Suporte Multi-idiomas",
+      description: "Atenda clientes no idioma preferido com mais de 30 idiomas suportados"
     },
     {
       icon: BarChart3,
-      title: "Real-Time Analytics",
-      description: "Monitor performance, track conversations, and optimize continuously"
+      title: "Análises em Tempo Real",
+      description: "Monitore desempenho, rastreie conversas e otimize continuamente"
     },
     {
       icon: Shield,
-      title: "Enterprise Security",
-      description: "Bank-grade encryption and compliance with data protection regulations"
+      title: "Segurança Empresarial",
+      description: "Criptografia de nível bancário e conformidade com regulamentos de proteção de dados"
     },
     {
       icon: MessageSquare,
-      title: "Omnichannel Ready",
-      description: "Deploy across phone, web chat, and mobile apps from one platform"
+      title: "Omnicanal",
+      description: "Implante em telefone, chat web e aplicativos móveis de uma única plataforma"
     }
   ];
 
@@ -62,13 +62,13 @@ const Features = () => {
         <div className="text-center mb-16">
           <Badge variant="outline" className="border-cosmic-primary text-cosmic-primary mb-4">
             <Headphones className="w-4 h-4 mr-2" />
-            Platform Features
+            Recursos da Plataforma
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Built for Modern Businesses
+            Construído para Empresas Modernas
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Everything you need to deploy intelligent voice agents that deliver exceptional customer experiences
+            Tudo que você precisa para implantar agentes de voz inteligentes que oferecem experiências excepcionais ao cliente
           </p>
         </div>
 
@@ -99,22 +99,22 @@ const Features = () => {
           <div className="inline-flex items-center justify-center gap-8 p-6 bg-muted/30 rounded-2xl border border-border/50">
             <div className="text-center">
               <div className="text-2xl font-bold text-cosmic-primary">99.9%</div>
-              <div className="text-sm text-muted-foreground">Uptime SLA</div>
+              <div className="text-sm text-muted-foreground">SLA Disponibilidade</div>
             </div>
             <div className="w-px h-12 bg-border" />
             <div className="text-center">
               <div className="text-2xl font-bold text-cosmic-primary">&lt;200ms</div>
-              <div className="text-sm text-muted-foreground">Response Time</div>
+              <div className="text-sm text-muted-foreground">Tempo de Resposta</div>
             </div>
             <div className="w-px h-12 bg-border" />
             <div className="text-center">
               <div className="text-2xl font-bold text-cosmic-primary">30+</div>
-              <div className="text-sm text-muted-foreground">Languages</div>
+              <div className="text-sm text-muted-foreground">Idiomas</div>
             </div>
             <div className="w-px h-12 bg-border" />
             <div className="text-center">
               <div className="text-2xl font-bold text-cosmic-primary">24/7</div>
-              <div className="text-sm text-muted-foreground">Support</div>
+              <div className="text-sm text-muted-foreground">Suporte</div>
             </div>
           </div>
         </div>

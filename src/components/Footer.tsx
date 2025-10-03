@@ -26,49 +26,49 @@ const Footer = () => {
               <div className="w-8 h-8 bg-gradient-cosmic rounded-lg flex items-center justify-center">
                 <Star className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">Astro Voice</span>
+              <span className="text-xl font-bold">KIRA</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Empowering small and medium businesses with intelligent AI voice agents 
-              that transform customer interactions and drive growth.
+              Capacitando pequenas e médias empresas com agentes de voz IA inteligentes 
+              que transformam interações com clientes e impulsionam o crescimento.
             </p>
             <div className="flex items-center gap-2 text-sm text-gray-400">
               <MapPin className="w-4 h-4" />
-              <span>San Francisco, CA</span>
+              <span>São Paulo, Brasil</span>
             </div>
           </div>
 
           {/* Product */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Product</h3>
+            <h3 className="text-lg font-semibold">Produto</h3>
             <div className="space-y-2 text-sm text-gray-300">
               <a href="#features" className="block hover:text-cosmic-secondary transition-colors">
-                Features
+                Recursos
               </a>
               <a href="#use-cases" className="block hover:text-cosmic-secondary transition-colors">
-                Use Cases
+                Casos de Uso
               </a>
               <a href="#pricing" className="block hover:text-cosmic-secondary transition-colors">
-                Pricing
+                Preços
               </a>
               <a href="#integrations" className="block hover:text-cosmic-secondary transition-colors">
-                Integrations
+                Integrações
               </a>
               <a href="#api" className="block hover:text-cosmic-secondary transition-colors">
-                API Documentation
+                Documentação da API
               </a>
             </div>
           </div>
 
           {/* Company */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Company</h3>
+            <h3 className="text-lg font-semibold">Empresa</h3>
             <div className="space-y-2 text-sm text-gray-300">
               <a href="#about" className="block hover:text-cosmic-secondary transition-colors">
-                About Us
+                Sobre Nós
               </a>
               <a href="#careers" className="block hover:text-cosmic-secondary transition-colors">
-                Careers
+                Carreiras
               </a>
               <a href="#blog" className="block hover:text-cosmic-secondary transition-colors">
                 Blog
@@ -77,31 +77,31 @@ const Footer = () => {
                 Press Kit
               </a>
               <a href="#contact" className="block hover:text-cosmic-secondary transition-colors">
-                Contact
+                Contato
               </a>
             </div>
           </div>
 
           {/* Support */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Support</h3>
+            <h3 className="text-lg font-semibold">Suporte</h3>
             <div className="space-y-3 text-sm text-gray-300">
               <a href="#help" className="block hover:text-cosmic-secondary transition-colors">
-                Help Center
+                Central de Ajuda
               </a>
               <a href="#docs" className="block hover:text-cosmic-secondary transition-colors">
-                Documentation
+                Documentação
               </a>
               <a href="#status" className="block hover:text-cosmic-secondary transition-colors">
-                System Status
+                Status do Sistema
               </a>
               <div className="flex items-center gap-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <span>hello@astrovoice.live</span>
+                <span>ola@kira.ai</span>
               </div>
               <div className="flex items-center gap-2 text-gray-400">
                 <Phone className="w-4 h-4" />
-                <span>1-800-ASTRO-AI</span>
+                <span>0800-KIRA-AI</span>
               </div>
             </div>
           </div>
@@ -110,17 +110,17 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
             <div>
-              © 2024 Astro Voice. All rights reserved.
+              © 2024 KIRA. Todos os direitos reservados.
             </div>
             <div className="flex items-center gap-6">
               <a href="#privacy" className="hover:text-cosmic-secondary transition-colors">
-                Privacy Policy
+                Política de Privacidade
               </a>
               <a href="#terms" className="hover:text-cosmic-secondary transition-colors">
-                Terms of Service
+                Termos de Serviço
               </a>
               <a href="#cookies" className="hover:text-cosmic-secondary transition-colors">
-                Cookie Policy
+                Política de Cookies
               </a>
             </div>
           </div>
